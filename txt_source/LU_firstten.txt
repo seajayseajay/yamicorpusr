@@ -1,0 +1,60 @@
+1.
+s Panci ko o asa ka
+u panci ko  o asa ka
+e say 1SG.GEN NOM one CONJ
+z 說 1SG.屬格 主格 一 連接
+2.
+s e, kavavatanen nokakoa
+u e ka-va~vata-nen  noka-koa
+e FIL NMZ-RDPL~hearsay-PF PST-some
+z FIL 名物化-重疊～據說-受焦 過去-某
+#e I am going to tell a story from long ago.
+#c 我要講的故事是很久以前的。
+3.
+s amian sira so, amian sira so asa ka vahay, amian so asa ka anak da
+u am-yan sira  so am-yan sira  so asa ka vahay am-yan so asa ka anak da
+e AF-exist 3PL.NOM OBL AF-exist 3PL.NOM OBL one CONJ house AF-exist OBL one CONJ child 3PL.GEN
+z 主焦-存在 3PL.主格 斜格 主焦-存在 3PL.主格 斜格 一 連接 房子 主焦-存在 斜格 一 連接 孩子 3PL.屬格
+#e There was a family, and they had a child.
+#c 有一家人，這一家人有一個小孩。
+4.
+s makey a mangay do
+u m-akey a m-angay do
+e STA-like LK AF-go  LOC
+z 靜態-喜歡 繫詞 主焦-去 處格
+5.
+s do wawa, do pasalan a
+u do wawa do pasalan a
+e LOC sea LOC beach  LK
+z 處格 海 處格 海灘  繫詞
+6.
+s miyowyowyaw
+u mi-yow~yowyaw
+e AF-RDPL~roam
+z 主焦-重疊～遊蕩
+#e He liked to go to the seaside and wander.
+#c 他喜歡去海邊玩。
+7.
+s ipisa o kapiyowyaw na do pasalan am,
+u ipi-sa  o kapi-yowyaw na  do pasalan am
+e times-one NOM NMZ-roam 3SG.GEN LOC beach  TOP
+z 次數-一 主格 名物化-遊蕩 3SG.屬格 處格 海灘  主題
+#e One time he went to the seaside to play,
+#c 有一次他到海邊去玩，
+8.
+s to makacita do kakawan so rak-
+u to maka-cita do kakawan so rako
+e then AF.able-see LOC reef  OBL big
+z 就 主焦.能力-看 處格 礁石  斜格 大
+#e He saw on the reef a big-
+#c 他就看到在礁石上看到一個很大的-
+9.
+s e, so
+u e so
+e FIL OBL
+z FIL 斜格
+10.
+s to
+u to
+e then
+z 就
