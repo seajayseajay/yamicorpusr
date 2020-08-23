@@ -1,0 +1,113 @@
+---
+title: "Read files"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(here)
+library(fs)
+library(glue)
+```
+
+```{r}
+files <- dir_ls(here("txt_source"),
+                regexp = "firstten")
+
+
+readin <- read_lines(files)
+
+# readin
+```
+
+
+```{r}
+mean(2:5)
+
+a <- (2:5)
+a
+
+a %>%
+  mean() %>% 
+  + 3
+```
+
+
+```{r}
+tableform <- readin %>%
+  as_tibble() %>% 
+  # tagging (making columns)
+  mutate(regel = cumsum(str_detect(value, "\\d\\."))) %>% 
+  mutate(category = str_extract(value, "^..?(?=\\s)")) %>% 
+  # spreding wider
+  pivot_wider(names_from = "category", values_from = "value") %>% 
+  # fill out the missing translations
+  fill(`#e`, .direction = "up") %>% 
+  fill(`#c`, .direction = "up") %>% 
+  # beautify
+  select(-`NA`) %>% 
+  rename(surface = s,
+         underlying = u,
+         englishgloss = e,
+         chinesegloss = z,
+         englishtrans = `#e`,
+         chinesetrans = `#c`) %>% 
+  mutate(across(where(is.character), 
+                ~str_remove(.x, "^..?\\s")))
+  
+```
+
+
+simple search 
+```{r}
+tableform %>%
+  filter(str_detect(englishgloss, "OBL"))
+```
+
+
+```{r}
+test <- slice(tableform, 1)
+  
+```
+
+
+* output 
+  * glue
+  * summary
+
+
+```{r}
+glue('{tableform$regel}. 
+     gla {tableform$surface} //
+     {tableform$underlying}
+     {tableform$englishgloss}
+     {tableform$chinesegloss}
+     {tableform$englishtrans}
+     {tableform$chinesetrans}
+     
+     ')
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
