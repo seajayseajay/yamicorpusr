@@ -1,0 +1,40 @@
+---
+title: "Preprocessing"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Steps to follow for preprocessing
+
+
+
+
+# Copy into a txt document.
+
+# Replace <tabs> with <space>
+
+# Check all multi line glosses on one line
+
+# Add the following
+
+'s ' to surface line
+'u ' to underlying line
+'e ' to english gloss
+'z ' to chinese gloss
+
+# Replace all \n\n with \n
+
+
+
+
+
+
+
+
+
+
+
+
